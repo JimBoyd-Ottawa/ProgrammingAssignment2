@@ -12,7 +12,7 @@
 ## the function x$getinverted pulls the inverse value associated with x from the cache
 
 ## Write a short comment describing this function
-makeCacheMatrix <- function(x = numeric()) {
+makeCacheMatrix <- function(x = matrix()) {
     inverse <- NULL
     set <- function(y) {
         x <<- y
