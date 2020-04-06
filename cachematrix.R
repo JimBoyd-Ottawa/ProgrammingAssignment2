@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
     list(set = set, get = get, setinverted = setinverted, getinverted = getinverted)
 }
  
- 
+  
 ## Write a short comment describing this function
 ## cacheSolve is a function that inverts a square matix called x
 ## this function tries to be efficient by using the cache. Every time a matrix is inverted,
